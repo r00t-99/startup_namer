@@ -1,16 +1,13 @@
-# startup_namer
+# Startup Namer
 
-A new Flutter project.
+## What is this?
+This is an application that displays a list of randomly created startup company names.
+Company names are lazy loaded as you scroll and displayed indefinitely.
+Users can also do favorites and see the list of favorites.
 
-## Getting Started
+### This is a Flutter tutorial
+This is a tutorial for the following link and is not a project intended for practical use.
+- https://docs.flutter.dev/get-started/codelab
+- https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#8
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Capture
