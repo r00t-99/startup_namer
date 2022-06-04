@@ -13,22 +13,6 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-
-  // route の push, pop がない場合の記述
-  // Widget build(BuildContext context) {
-  //   return MaterialApp(
-  //     title: 'Startup Name Generator',
-  //     home: Scaffold(
-  //       appBar: AppBar(
-  //         title: const Text('Startup Name Generator'),
-  //       ),
-  //       body: const Center(
-  //         child: RandomWords(),
-  //       ),
-  //     ),
-  //   );
-  // }
-
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup Name Generator',
@@ -79,10 +63,6 @@ class _RandomWordsState extends State<RandomWords> {
             }
 
             final alreadySaved = _saved.contains(_suggestions[index]);
-
-            // 単純に Text を返す場合の記述
-            // return Text(_suggestions[index].asPascalCase);
-
             return ListTile(
               title: Text(
                 _suggestions[index].asPascalCase,
