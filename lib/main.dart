@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcom to Flutter',
+      title: 'Startup Name Generator',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcom to Flutter'),
+          title: const Text('Startup Name Generator'),
         ),
         body: const Center(
           child: RandomWords(),
